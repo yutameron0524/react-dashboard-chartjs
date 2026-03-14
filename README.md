@@ -1,29 +1,27 @@
-#React Dashboard App 
+# 売上管理ダッシュボード Webアプリ
 
 ## 概要
-TypeScript + Vite + React + Tailwind CSS v4 + Chart.js を使用したダッシュボードアプリです。
-入力したデータを追加し、一覧表示とグラフ表示を行います。
+売上データを登録・管理し、グラフで可視化できるシンプルな売上管理ダッシュボードです。
+売上の推移をグラフで確認することができ、売上データの管理と簡単な分析を行うことができます。
 
 ## 使用技術
+
+- React
 - TypeScript
 - Vite
-- React
-- Tailwind CSS v4
+- Tailwind CSS
 - Chart.js
-  
+
 ## 機能
-- データ入力
-- データ追加
-- 一覧表示
-- Chart.js によるグラフ表示
-  
-## 設計ポイント
-- state とロジックを pages に集約
-- components に表示責務のみ
-- Chart.js を React コンポーネントから分離
-  
-## セットアップ手順
-以下のコマンドを実行すると、ローカル環境でアプリが起動します。
-```bash
-npm install
-npm run dev
+
+- 売上データ登録
+- 売上一覧表示
+- 売上削除
+- 売上グラフ表示（Chart.js）
+
+## アプリURL
+https://react-dashboard-chartjs.vercel.app/
+
+## 制作期間
+
+1週間
